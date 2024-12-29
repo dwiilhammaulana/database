@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost'; // Ganti dengan host server cloud Anda
+$host = 'mysql.railway.internal'; // Ganti dengan host server cloud Anda
 $user = 'root'; // Username MySQL Anda
-$pass = ''; // Password MySQL Anda
-$db   = 'coba_cloud';
+$pass = 'iVpdsJqXxuTccawSMCzWpJfpAOTQSfDm'; // Password MySQL Anda
+$db   = 'railway';
 
 $conn = new mysqli($host, $user, $pass, $db);
 
